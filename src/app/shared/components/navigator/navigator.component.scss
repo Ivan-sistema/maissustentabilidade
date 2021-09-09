@@ -1,0 +1,31 @@
+
+
+.navigator{
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    float: right;
+    right: 0;
+    background: #29d9c2;
+}
+
+.navigator ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.navigator ul li{
+    padding: 5px 25px;
+    float: left;
+}
+.navigator ul li a{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.navigator ul li:hover a{
+    color: #000000;
+}
