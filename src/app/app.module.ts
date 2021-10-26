@@ -9,6 +9,7 @@ import { ServicosComponent } from './servicos/servicos.component';
 import { QuemSomosComponent } from './components/quem-somos/quem-somos.component';
 import { LogotipoComponent } from './shared/components/logotipo/logotipo.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { BannerComponent } from './shared/components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LogoComponent } from './components/logo/logo.component';
     ServicosComponent,
     QuemSomosComponent,
     LogotipoComponent,
-    LogoComponent
+    LogoComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

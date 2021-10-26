@@ -1,31 +1,30 @@
 
-
-.navigator{
-    width: 60%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    float: right;
-    right: 0;
-    background: #29d9c2;
-}
-
-.navigator ul{
+/*.navigator ul {
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
-.navigator ul li{
+
+.navigator ul li {
     padding: 5px 25px;
     float: left;
 }
-.navigator ul li a{
-    color: #f8f8f8;
+
+.navigator ul li a {
+    color: #4682B4;
     font-size: 20px;
     font-weight: 300;
-
+    text-decoration: none;
 }
-.navigator ul li:hover a{
-    color: #000000;
+
+.navigator ul li:hover a {
+    font-weight: 500;
+}*/
+
+
+.navbar-nav {
+    margin: auto;
+    background-color: #f8f8f8;
+    justify-content: right;
 }
