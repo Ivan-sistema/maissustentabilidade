@@ -1,5 +1,21 @@
-.banner-bg{
-    background: url('../../../assets/images/banner.jpg') center center no-repeat;
-    height: 800px;
-    background-size: cover;
+
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    float: right;
+    position: fixed;
+    background:#fff;
+    height: 80px;
+    z-index: 99999;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+}
+.navbar-expand-lg{
+    background-color: black;
 }
