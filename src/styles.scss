@@ -1,1 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+}
+small{
+    font-size: 12px;
+    font-weight: 300;
+}
+h2{
+    font-size: 52px;
+    font-weight: 700;
+    margin: 0;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container-full{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.container{
+    width: 90%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.padding-tb{
+    padding: 10px 0;
+}
+/*logotipo*/
+.section-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: -100px;
+    border:1px solid #b8b8b8;
+}
+
+
+.logo img{
+    width: 70%;
+    height: 0 auto;
+}
