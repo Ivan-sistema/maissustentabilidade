@@ -5,8 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './logotipo.component.html',
   styleUrls: ['./logotipo.component.scss']
 })
-export class LogotipoComponent implements OnInit {
- variavel = "../../../../../assets/images/logotipos.png";
+export class LogotipoComponent implements OnInit { 
+  // imagemLogotipo = "../../../../../assets/images/logotipos.png";
+ title = "titulo-2";
   constructor() { }
 
   ngOnInit() {

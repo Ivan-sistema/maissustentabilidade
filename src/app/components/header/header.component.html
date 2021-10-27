@@ -1,7 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-        
-        <img class="img" src="../../../../../assets/images/logotipos.png" alt="">
+        <!-- TODO
+        criar uma variavel no TS para o src e para o alt e inserir no html
+        colocar a class da maneira do angular 
+      -->
+
+      <div class="teste">
+        <img class="img1" [src]="imagemHeader" alt=" {{altImg}}" > <!--Para criar uma variavel em alt apenas colocar -> {{ alguma coisa aqui dentro especificando bem o que é}}-->
+      </div>
+
+
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
