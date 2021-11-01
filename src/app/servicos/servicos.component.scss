@@ -79,7 +79,7 @@
 //Card
 
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Space+Grotesk:wght@300;400&display=swap');
     body {
         background-color:#FCBF49;
     }
@@ -116,11 +116,6 @@
         bottom: 0;
         left: 0;
         background: inherit;
-        -webkit-filter: grayscale(1);
-        -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-        -o-filter: grayscale(100%);
-        filter: grayscale(100%);
     }
     
         &:hover {
@@ -132,7 +127,7 @@
         .card-img-overlay {
             transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
             background: rgb(35,79,109);
-        background: linear-gradient(0deg, rgba(4,69,114,0.5) 0%, rgba(4,69,114,1) 100%);
+        background: linear-gradient(0deg, rgba(83, 119, 145, 0.5) 0%, rgb(58, 90, 97) 100%);
             }
         }
     }
@@ -160,12 +155,20 @@
     .card-img-overlay {
         transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
     background: rgb(35,79,109);
-    background: linear-gradient(0deg, rgba(36, 81, 110, 0.379) 0%, rgba(69,95,113,1) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.379) 0%, rgb(65, 117, 165) 100%);
     } 
+    .descricao, p{
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Space Grotesk', sans-serif;
+        display: inline-block;
+    }
 }
 
-
-
+.col-12 {  //primeira imagem com 80% da tela
+    background-color: rgb(255, 255, 255) !important;
+    height: 480px;
+}
 
 
 
