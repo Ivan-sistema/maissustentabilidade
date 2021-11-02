@@ -1,13 +1,12 @@
-.banner-bg{
+.banner-bg {
     height: 800px;
     float: left;
     position: relative;
 }
-.container{
-    z-index: 99999px;
-    color: blue;
-}
 .d-md-block {
-    color: cadetblue;
+    color: rgb(0, 7, 7);
     text-align: right;
+}
+.carousel-caption {
+    color:rgba(44, 53, 94, 0.973);
 }
