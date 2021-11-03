@@ -1,6 +1,7 @@
 .title-pj{
     color:rgb(19, 19, 19);
     text-align: center;
+    margin: 0 0 15px 0;
 }
 .section-projeto .content-pj {
     display: flex;
@@ -16,9 +17,8 @@
     padding: 3px;
 }
 .container-full{
-    padding: 50px;
+    padding: 50px 0;
     background-color: rgb(207, 207, 207);
-    margin-top: 200px;
 }
 .box-pj, img {
     border-radius: 20px;

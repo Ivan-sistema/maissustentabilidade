@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigatorComponent implements OnInit {
 
+  imagemHeader = "./assets/images/logotipos.png";
+  altImg = "Logotipo do header do site mais sustentabilidade";
   constructor() { }
 
   ngOnInit() {
