@@ -1,25 +1,14 @@
-.title-pj{
-    color:rgb(19, 19, 19);
+.container-project {
+    padding: 10% 0;
+    margin-top:100px;
+}
+.row, img {
+    padding:10px;
+    border-radius: 50px;
+}
+.title {
     text-align: center;
-    margin: 0 0 15px 0;
 }
-.section-projeto .content-pj {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-.section-projeto .content-pj .box-pj img {
-    width: 100%;
-    border-radius: 8px;
-    filter: grayscale(50%);
-}
-.content-pj {
-    padding: 3px;
-}
-.container-full{
-    padding: 50px 0;
-    background-color: rgb(207, 207, 207);
-}
-.box-pj, img {
-    border-radius: 20px;
+.col-3{
+    padding:0px !important;
 }
