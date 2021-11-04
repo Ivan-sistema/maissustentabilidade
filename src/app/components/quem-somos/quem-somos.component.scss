@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.section-qs .title-qs{
+.section-qs .title-qs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,4 +44,22 @@
 }
 .container-full{
     background-color:cadetblue;
+}
+
+@media (max-width: 801px) {
+
+    .section-qs .content-qs{
+        flex-direction: column;
+    }
+    
+.section-qs .content-qs .box-qs1{
+    width: 100%;
+    }
+.section-qs .content-qs .box-qs2{
+    width: 100%;
+    }
+
+.section-qs .content-qs .box-qs2 .description {
+    margin: 52px 0 0 0;
+   }
 }
