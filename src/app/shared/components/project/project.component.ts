@@ -7,6 +7,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectComponent implements OnInit {
 
+  conteudo = [
+    {
+      imagem:"https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg",
+      alt: "Primeira imagem de planos para projetos futuros"
+    },
+    {
+      imagem:"https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg",
+      alt: "Primeira imagem de planos para projetos futuros"
+    },
+    {
+      imagem:"https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg",
+      alt: "Primeira imagem de planos para projetos futuros"
+    },
+    {
+      imagem:"https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg",
+      alt: "Primeira imagem de planos para projetos futuros"
+    }
+  ];
+
+  
   constructor() { }
 
   ngOnInit() {

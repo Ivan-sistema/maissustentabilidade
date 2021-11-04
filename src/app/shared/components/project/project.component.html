@@ -1,74 +1,13 @@
 <div class="container-full">
 <div class="container container-project">
    <div class="title">
-      <h2>Project</h2>
+      <h2>Projetos</h2>
       <h4>Lorem ipsum dolor sit amet</h4>
    </div>
     <div class="row">
-        <div class="col-3">
-           <div class="teste1">
-              <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Primeira imagem de planos para projetos futuros">
-           </div>
-        </div>
-        <div class="col-3">
-         <div class="teste1">
-            <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Segunda imagem, essa imagem ilustra um dos nossos projeto que está no papel, temos à finalidade de organizar e tirar ele do papel em um fututo proximo">
-         </div>
-      </div>
-      <div class="col-3">
-         <div class="teste1">
-            <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="terceira imagem simbolizando o projeto que estamos desenvolvendo">
-         </div>
-      </div>
-      <div class="col-3">
-         <div class="teste1">
-            <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Quarta imagem do nosso projeto que esta sendo desenvolvido pela equipe nossa">
-         </div>
+      <div class="col-3" *ngFor="let item of conteudo">
+            <img src="{{item.imagem}}" alt="{{item.alt}}">
       </div>
     </div>
-    <div class="row">
-      <div class="col-3">
-         <div class="teste1">
-            <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Lorem ipsum dolor sit amet">
-         </div>
-      </div>
-      <div class="col-3">
-       <div class="teste1">
-          <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Lorem ipsum dolor sit amet">
-       </div>
-    </div>
-    <div class="col-3">
-      <div class="teste1">
-         <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Lorem ipsum dolor sit amet">
-      </div>
-   </div>
-   <div class="col-3">
-      <div class="teste1">
-         <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Lorem ipsum dolor sit amet">
-      </div>
-   </div>
-  </div>
-  <div class="row">
-   <div class="col-3">
-      <div class="teste1">
-         <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Lorem ipsum dolor sit amet">
-      </div>
-   </div>
-   <div class="col-3">
-    <div class="teste1">
-       <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Lorem ipsum dolor sit amet">
-    </div>
- </div>
- <div class="col-3">
-   <div class="teste1">
-      <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Lorem ipsum dolor sit amet">
-   </div>
-</div>
-<div class="col-3">
-   <div class="teste1">
-      <img src="https://cdn-static.findly.com/wp-content/uploads/sites/584/2018/05/nafta_driver-220x220.jpg" alt="Lorem ipsum dolor sit amet">
-   </div>
-</div>
-</div>
 </div>
 </div>
